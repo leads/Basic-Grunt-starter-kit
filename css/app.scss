@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* ☃ SnowMan */
+
+/* SASS THINGS */
+@import 'normalize';
+@import 'colors';
+
+
+html, body {
+	position: fixed;
+}
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: $navy;
+	font-family: Helvetica, Arial, sans-serif;
+	color: $yellow;
+} 
